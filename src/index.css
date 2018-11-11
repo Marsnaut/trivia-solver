@@ -12,3 +12,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+#header {
+  font-family: 'VT323';
+}
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: lightgreen;
+  font-size: 60px;
+  width: 100%;
+}
+
+.ui.form .field>label {
+  color: white
+}
+
+.ui.attached.segment {
+  background-color: black;
+  color: white
+}
+
+.ui.fluid.button, .ui.fluid.buttons {
+  background-color: black;
+  color: white;
+}
+
+.greenify {
+  color: lightgreen;
+}
+
+.orangeify {
+  color: orange;
+}
+
+.redify {
+  color: red;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
