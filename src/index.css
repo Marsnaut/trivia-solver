@@ -35,7 +35,9 @@ h1 {
 
 .ui.attached.segment {
   background-color: black;
-  color: white
+  color: white;
+  border-radius: 5px;
+  border-color: lightgreen;
 }
 
 .ui.fluid.button, .ui.fluid.buttons {

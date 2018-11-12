@@ -61,10 +61,7 @@ async function sendToGoogleVision(googleVisionResult) {
   const question = getQuestion(fullText);
   const choices = getChoices(fullText);
 
-  console.log([question, choices])
   return [question, choices]
 }
-
-app()
 
 export default app

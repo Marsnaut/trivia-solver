@@ -29,7 +29,7 @@ class App extends Component {
     class Decoder {
       constructor (el) {
         this.el = el;
-        this.words = ["Trivia Solver","I am a robot","I solve questions","Created by Jimmy"];
+        this.words = ["Black Box Trivia","Solving the world's easiest questions", "You can't handle the truth!","Created by Jimmy"];
         this.index = 0;
         this.startStr=this.words[this.index];
         this.encodedStr="";
@@ -101,10 +101,10 @@ class App extends Component {
             clearInterval(interval);
             setTimeout(function () {
               decoder.reset();
-            },250)
+            },500)
             
           }
-        }, 150);
+        }, 50);
       
       }
     }
@@ -133,8 +133,6 @@ class App extends Component {
     let temp = ['> STARTING EVALUATION ... ', <br />];
     evt.preventDefault()
     
-    console.log(evt.target.name)
-
     let pictureToProcess = evt.target.name || evt.target.id
     let pictureUrl = evt.target.id
 
@@ -358,8 +356,8 @@ class App extends Component {
                 <div className="row">
                   <div className="three wide column">
                     {!this.state.isHidden && (
-                      <div class="ui form">
-                      <div class="field">
+                      <div className="ui form">
+                      <div className="field">
                         <label>Question:</label>
                           <input type="text" name="question" onChange={this.handleFormChange} />
                         <label>Choices:</label>
