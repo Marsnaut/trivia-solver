@@ -1,6 +1,7 @@
 # Black Box Trivia
 
-Built for a Stackathon project at Full Stack Academy in 4 days.
+Built for a Stackathon project at Fullstack Academy in 4 days. [Stackathon Presentation](https://www.youtube.com/watch?v=WeijjGtC30Y&list=PLx0iOsdUOUmnmSuYRD63kcCzzr5hpr3cW)
+
 
 ## Overview:
 This is a Single-Page Application (SPA) that uses React, with an optical character recoginition (OCR) API and search APIs, to find answers to common trivia questions. A list of five pre-populated questions/answers is shown from a popular game called Trivia HQ. 
