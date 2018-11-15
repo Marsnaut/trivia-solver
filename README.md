@@ -10,7 +10,7 @@ The app is not fully optimized and should be used for simple questions. At the b
 ## Demo:
 General Demo
 
-![General Demo](https://i.imgur.com/LBPb8gS.gif)
+![General Demo](https://i.imgur.com/IhBbse9.gif)
 
 Single Question
 
