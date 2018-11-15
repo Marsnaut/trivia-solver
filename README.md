@@ -9,13 +9,13 @@ The app is not fully optimized and should be used for simple questions. At the b
 
 ## Demo:
 General Demo
-![General Demo](https://i.imgur.com/LBPb8gS.gifv)
+![General Demo](https://i.imgur.com/LBPb8gS.gif)
 
 Single Question
-![Single Question](https://i.imgur.com/ZYYJYMr.gifv)
+![Single Question](https://i.imgur.com/ZYYJYMr.gif)
 
 Custom Question with edge case
-![Custom Question](https://i.imgur.com/OBHRTCB.gifv)
+![Custom Question](https://i.imgur.com/OBHRTCB.gif)
 
 ## Start the App:
 * Clone this repository and then cd into it.
