@@ -7,6 +7,16 @@ This is a Single-Page Application (SPA) that uses React, with an optical charact
 
 The app is not fully optimized and should be used for simple questions. At the bottom, you are able to test your own question and answers to check the accuracy of the app.
 
+## Demo:
+General Demo
+![General Demo](https://i.imgur.com/LBPb8gS.gifv)
+
+Single Question
+![Single Question](https://i.imgur.com/ZYYJYMr.gifv)
+
+Custom Question with edge case
+![Custom Question](https://i.imgur.com/OBHRTCB.gifv)
+
 ## Start the App:
 * Clone this repository and then cd into it.
 * Run `npm i` to download all dependencies
