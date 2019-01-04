@@ -115,6 +115,7 @@ class App extends Component {
 
   componentDidMount() {
     this.onMountHeader()
+    alert('Thanks for visiting! \nPlease note that site functionality is disabled due to associated API call costs \nFeel free to clone my Github project and input your own API keys to test \nhttps://github.com/jimmyhuang/trivia-solver')
   }
 
   handleFormChange (evt) {
@@ -128,7 +129,6 @@ class App extends Component {
   }
 
   async handleClick(evt) {
-
     let startTime = new Date();
     let temp = ['> STARTING EVALUATION ... ', <br />];
     evt.preventDefault()
@@ -150,7 +150,13 @@ class App extends Component {
       googleVisionResults = await app(pictureUrl)
     }
 
-    temp.push('retrieved question: ', <span className="greenify">{googleVisionResults[0]}</span>, <br />)
+    if (googleVisionResults) {
+      temp.push('retrieved question: ', <span className="greenify">{googleVisionResults[0]}</span>, <br />)
+    } else {
+      temp.push(<span className="redify">PROCESSING ERROR - likely due to missing API key</span>, <br />, <span className="redify"> View a demo on <a href="https://github.com/jimmyhuang/trivia-solver">Github</a>  or <a href="https://www.youtube.com/watch?v=WeijjGtC30Y&list=PLx0iOsdUOUmnmSuYRD63kcCzzr5hpr3cW">Youtube</a> </span>)
+      // break;
+    }
+   
 
     this.setState(prevState => ({
       pictureToProcess: {...prevState.pictureToProcess, temp }
