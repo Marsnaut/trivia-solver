@@ -4,7 +4,7 @@ Built for a Stackathon project at Fullstack Academy in 4 days.
 
 Watch the [Stackathon Presentation](https://www.youtube.com/watch?v=WeijjGtC30Y&list=PLx0iOsdUOUmnmSuYRD63kcCzzr5hpr3cW). 
 
-Recipient of 'Nerd Cred' award for the 1809 Cohort.
+Recipient of 'Nerd Cred' award in the 1809 Fullstack Academy Cohort.
 
 
 ## Overview:
